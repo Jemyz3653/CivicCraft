@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PBP",
+    "PPP"
+  ],
+  "key": {
+    "B": "minecraft:book",
+    "P": "minecraft:pale_oak_planks"
+  },
+  "result": {
+    "id": "civiccraft:pale_oak_bookcase",
+    "count": 1
+  }
+}

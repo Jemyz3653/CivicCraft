@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "civiccraft",
+  "version": "${version}",
+  "name": "CivicCraft Furniture",
+  "description": "Functional furniture for homes, parks, shops and museums.",
+  "authors": ["Detemkur-Studios"],
+  "license": "MIT",
+  "environment": "*",
+  "icon": "assets/civiccraft/icon.png",
+  "entrypoints": {
+    "main": ["studio.detemkur.civiccraft.CivicCraft"],
+    "client": ["studio.detemkur.civiccraft.client.CivicCraftClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.163.0"
+  }
+}

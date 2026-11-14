@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "SCS",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:spruce_planks",
+    "S": "minecraft:stick",
+    "W": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "civiccraft:spruce_market_stand",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PBP",
+    "PPP"
+  ],
+  "key": {
+    "B": "minecraft:book",
+    "P": "minecraft:cherry_planks"
+  },
+  "result": {
+    "id": "civiccraft:cherry_bookcase",
+    "count": 1
+  }
+}

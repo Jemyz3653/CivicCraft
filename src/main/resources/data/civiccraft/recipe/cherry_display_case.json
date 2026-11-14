@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "G": "minecraft:glass",
+    "P": "minecraft:cherry_planks"
+  },
+  "result": {
+    "id": "civiccraft:cherry_display_case",
+    "count": 1
+  }
+}

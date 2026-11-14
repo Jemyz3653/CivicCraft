@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "civiccraft:red_museum_stanchion",
+    "civiccraft:blue_museum_stanchion",
+    "civiccraft:black_museum_stanchion",
+    "civiccraft:white_museum_stanchion"
+  ]
+}

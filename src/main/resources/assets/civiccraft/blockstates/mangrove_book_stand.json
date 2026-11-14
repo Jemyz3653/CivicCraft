@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "civiccraft:block/mangrove_book_stand",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "civiccraft:block/mangrove_book_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "civiccraft:block/mangrove_book_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "civiccraft:block/mangrove_book_stand",
+      "y": 270
+    }
+  }
+}

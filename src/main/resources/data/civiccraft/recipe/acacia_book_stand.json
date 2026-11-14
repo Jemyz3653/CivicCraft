@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " BP",
+    " C ",
+    "PSP"
+  ],
+  "key": {
+    "B": "minecraft:book",
+    "C": "minecraft:chest",
+    "P": "minecraft:acacia_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:acacia_book_stand",
+    "count": 1
+  }
+}

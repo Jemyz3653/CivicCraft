@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    " S ",
+    "IGI"
+  ],
+  "key": {
+    "N": "minecraft:blue_wool",
+    "S": "minecraft:stick",
+    "I": "minecraft:iron_nugget",
+    "G": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "civiccraft:blue_museum_stanchion",
+    "count": 2
+  }
+}

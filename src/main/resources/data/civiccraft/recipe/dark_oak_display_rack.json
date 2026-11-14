@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IPI",
+    "PCP",
+    "IPI"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:dark_oak_planks"
+  },
+  "result": {
+    "id": "civiccraft:dark_oak_display_rack",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "G": "minecraft:glass",
+    "P": "minecraft:spruce_planks"
+  },
+  "result": {
+    "id": "civiccraft:spruce_display_case",
+    "count": 1
+  }
+}

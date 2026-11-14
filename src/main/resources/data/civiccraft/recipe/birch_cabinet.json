@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:birch_planks"
+  },
+  "result": {
+    "id": "civiccraft:birch_cabinet",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:mangrove_planks"
+  },
+  "result": {
+    "id": "civiccraft:mangrove_cabinet",
+    "count": 1
+  }
+}

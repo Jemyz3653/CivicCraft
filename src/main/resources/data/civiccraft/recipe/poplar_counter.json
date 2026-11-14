@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PCP",
+    "S S"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:poplar_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:poplar_counter",
+    "count": 1
+  }
+}

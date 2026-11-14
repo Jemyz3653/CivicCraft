@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PCP",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:cherry_planks"
+  },
+  "result": {
+    "id": "civiccraft:cherry_dresser",
+    "count": 1
+  }
+}

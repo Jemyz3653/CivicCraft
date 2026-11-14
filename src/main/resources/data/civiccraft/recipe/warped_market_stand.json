@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "SCS",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:warped_planks",
+    "S": "minecraft:stick",
+    "W": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "civiccraft:warped_market_stand",
+    "count": 1
+  }
+}

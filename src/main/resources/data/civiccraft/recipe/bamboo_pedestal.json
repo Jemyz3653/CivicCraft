@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PWP",
+    " C ",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:bamboo_planks",
+    "W": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "civiccraft:bamboo_pedestal",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    " S ",
+    "S S"
+  ],
+  "key": {
+    "P": "minecraft:warped_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:warped_stool",
+    "count": 1
+  }
+}

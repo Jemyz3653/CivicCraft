@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "civiccraft-test",
+  "version": "1.0.0",
+  "name": "CivicCraft integration tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["studio.detemkur.civiccraft.test.CivicGameTests"],
+    "fabric-client-gametest": ["studio.detemkur.civiccraft.test.CivicClientTest"]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "civiccraft:block/red_museum_stanchion"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "civiccraft:block/red_museum_stanchion_rope",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "civiccraft:block/red_museum_stanchion_rope",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "civiccraft:block/red_museum_stanchion_rope",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "civiccraft:block/red_museum_stanchion_rope",
+        "y": 270
+      }
+    }
+  ]
+}

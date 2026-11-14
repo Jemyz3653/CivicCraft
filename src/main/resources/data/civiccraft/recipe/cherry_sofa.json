@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WPW",
+    "WWW",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:cherry_planks",
+    "W": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "civiccraft:cherry_sofa",
+    "count": 1
+  }
+}

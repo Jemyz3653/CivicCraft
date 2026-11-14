@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "SPC",
+    "S P"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:mangrove_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:mangrove_writing_desk",
+    "count": 1
+  }
+}

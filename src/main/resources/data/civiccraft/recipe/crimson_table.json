@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "P": "minecraft:crimson_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:crimson_table",
+    "count": 1
+  }
+}

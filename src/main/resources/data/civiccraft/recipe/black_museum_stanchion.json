@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    " S ",
+    "IGI"
+  ],
+  "key": {
+    "N": "minecraft:black_wool",
+    "S": "minecraft:stick",
+    "I": "minecraft:iron_nugget",
+    "G": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "civiccraft:black_museum_stanchion",
+    "count": 2
+  }
+}

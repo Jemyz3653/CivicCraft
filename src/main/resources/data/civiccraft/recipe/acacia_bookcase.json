@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PBP",
+    "PPP"
+  ],
+  "key": {
+    "B": "minecraft:book",
+    "P": "minecraft:acacia_planks"
+  },
+  "result": {
+    "id": "civiccraft:acacia_bookcase",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    "PWP",
+    "S S"
+  ],
+  "key": {
+    "P": "minecraft:birch_planks",
+    "S": "minecraft:stick",
+    "W": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "civiccraft:birch_armchair",
+    "count": 1
+  }
+}

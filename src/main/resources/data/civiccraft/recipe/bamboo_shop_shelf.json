@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "PPP",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:bamboo_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:bamboo_shop_shelf",
+    "count": 1
+  }
+}

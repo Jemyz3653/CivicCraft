@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PIP",
+    "PCP",
+    "PIP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:pale_oak_planks"
+  },
+  "result": {
+    "id": "civiccraft:pale_oak_filing_cabinet",
+    "count": 1
+  }
+}

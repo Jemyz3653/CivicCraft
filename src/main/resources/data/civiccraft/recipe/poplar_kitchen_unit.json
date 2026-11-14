@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TTT",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:poplar_planks",
+    "T": "minecraft:smooth_stone"
+  },
+  "result": {
+    "id": "civiccraft:poplar_kitchen_unit",
+    "count": 1
+  }
+}

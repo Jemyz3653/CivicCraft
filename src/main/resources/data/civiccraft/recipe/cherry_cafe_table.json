@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:cherry_planks"
+  },
+  "result": {
+    "id": "civiccraft:cherry_cafe_table",
+    "count": 1
+  }
+}

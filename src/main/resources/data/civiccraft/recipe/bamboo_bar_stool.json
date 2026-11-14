@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " W ",
+    "PPP",
+    "SIS"
+  ],
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:bamboo_planks",
+    "S": "minecraft:stick",
+    "W": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "civiccraft:bamboo_bar_stool",
+    "count": 1
+  }
+}

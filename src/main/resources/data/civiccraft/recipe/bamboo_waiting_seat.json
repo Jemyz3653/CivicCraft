@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "IPI",
+    " I "
+  ],
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:bamboo_planks"
+  },
+  "result": {
+    "id": "civiccraft:bamboo_waiting_seat",
+    "count": 1
+  }
+}

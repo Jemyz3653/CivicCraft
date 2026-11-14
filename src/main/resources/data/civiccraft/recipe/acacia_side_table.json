@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " PP",
+    " S ",
+    "PP "
+  ],
+  "key": {
+    "P": "minecraft:acacia_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:acacia_side_table",
+    "count": 1
+  }
+}

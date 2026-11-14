@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "PCP",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:pale_oak_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:pale_oak_storage_crate",
+    "count": 1
+  }
+}
