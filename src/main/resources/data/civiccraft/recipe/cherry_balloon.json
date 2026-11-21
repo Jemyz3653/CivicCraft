@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " W ",
+    " T ",
+    " P "
+  ],
+  "key": {
+    "P": "minecraft:cherry_planks",
+    "T": "minecraft:string",
+    "W": "minecraft:red_wool"
+  },
+  "result": {
+    "id": "civiccraft:cherry_balloon",
+    "count": 1
+  }
+}

@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:mangrove_armchair"
+          "name": "civiccraft:mangrove_armchair",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:mangrove_armchair",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

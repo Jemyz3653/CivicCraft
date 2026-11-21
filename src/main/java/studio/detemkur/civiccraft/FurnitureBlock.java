@@ -4,6 +4,10 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.item.DyeColor;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -23,16 +27,17 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class FurnitureBlock extends Block {
     static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
+    public static final EnumProperty<DyeColor> COLOR = EnumProperty.create("color", DyeColor.class);
     final FurnitureKind kind;
 
     FurnitureBlock(FurnitureKind kind, Properties properties) {
         super(properties);
         this.kind = kind;
-        registerDefaultState(stateDefinition.any().setValue(FACING, Direction.NORTH));
+        registerDefaultState(stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(COLOR, DyeColor.RED));
     }
 
     @Override protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING);
+        builder.add(FACING, COLOR);
     }
 
     @Override public BlockState getStateForPlacement(BlockPlaceContext context) {
@@ -49,6 +54,19 @@ public class FurnitureBlock extends Block {
 
     @Override protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return kind.shapes.get(state.getValue(FACING));
+    }
+
+    @Override protected InteractionResult useItemOn(ItemStack stack, BlockState state, Level level,
+            BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        DyeColor color = stack.get(DataComponents.DYE);
+        if (!kind.hasCloth || color == null || state.getValue(COLOR) == color) {
+            return InteractionResult.TRY_WITH_EMPTY_HAND;
+        }
+        if (!level.isClientSide()) {
+            level.setBlockAndUpdate(pos, state.setValue(COLOR, color));
+            stack.consume(1, player);
+        }
+        return InteractionResult.SUCCESS;
     }
 
     @Override protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos,

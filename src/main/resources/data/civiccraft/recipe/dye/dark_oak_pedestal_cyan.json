@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:dark_oak_pedestal",
+  "material": "minecraft:cyan_dye",
+  "result": {
+    "id": "civiccraft:dark_oak_pedestal",
+    "components": {
+      "minecraft:block_state": {
+        "color": "cyan"
+      }
+    }
+  }
+}

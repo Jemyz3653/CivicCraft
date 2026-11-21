@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:jungle_pedestal"
+          "name": "civiccraft:jungle_pedestal",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:jungle_pedestal",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

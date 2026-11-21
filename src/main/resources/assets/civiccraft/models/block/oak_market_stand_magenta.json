@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/oak_market_stand",
+  "textures": {
+    "cloth": "minecraft:block/magenta_wool"
+  }
+}

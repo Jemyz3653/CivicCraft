@@ -144,7 +144,7 @@ public final class CivicClientTest implements FabricClientGameTest {
                         throw new AssertionError("Missing furniture item model " + block);
                     }
                 }
-                System.out.println("CIVICCRAFT: checked 342 inventory models.");
+                System.out.println("CIVICCRAFT: checked 368 inventory models.");
             });
             context.getInput().pressKey(com.mojang.blaze3d.platform.InputConstants.KEY_F1);
             context.waitTicks(2);
@@ -152,7 +152,7 @@ public final class CivicClientTest implements FabricClientGameTest {
             server.runCommand("tp @a 5.5 67.4 4 0 23");
             world.getConnection().waitForChunksRender();
             context.waitTicks(6);
-            context.takeScreenshot("civiccraft-1.0.0");
+            context.takeScreenshot("civiccraft-1.1.0");
             if (bloom) {
                 server.runCommand("tp @a 7 67.5 7.6 0 20");
                 world.getConnection().waitForChunksRender();

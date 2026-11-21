@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:poplar_balloon",
+  "material": "minecraft:purple_dye",
+  "result": {
+    "id": "civiccraft:poplar_balloon",
+    "components": {
+      "minecraft:block_state": {
+        "color": "purple"
+      }
+    }
+  }
+}

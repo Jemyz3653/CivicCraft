@@ -1,0 +1,118 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "color",
+    "cases": [
+      {
+        "when": "white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_white"
+        }
+      },
+      {
+        "when": "orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_orange"
+        }
+      },
+      {
+        "when": "magenta",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_magenta"
+        }
+      },
+      {
+        "when": "light_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_light_blue"
+        }
+      },
+      {
+        "when": "yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_yellow"
+        }
+      },
+      {
+        "when": "lime",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_lime"
+        }
+      },
+      {
+        "when": "pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_pink"
+        }
+      },
+      {
+        "when": "gray",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_gray"
+        }
+      },
+      {
+        "when": "light_gray",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_light_gray"
+        }
+      },
+      {
+        "when": "cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_cyan"
+        }
+      },
+      {
+        "when": "purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_purple"
+        }
+      },
+      {
+        "when": "blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_blue"
+        }
+      },
+      {
+        "when": "brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_brown"
+        }
+      },
+      {
+        "when": "green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_green"
+        }
+      },
+      {
+        "when": "black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/oak_balloon_black"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "civiccraft:block/oak_balloon"
+    }
+  }
+}

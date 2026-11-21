@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:oak_display_case",
+  "material": "minecraft:green_dye",
+  "result": {
+    "id": "civiccraft:oak_display_case",
+    "components": {
+      "minecraft:block_state": {
+        "color": "green"
+      }
+    }
+  }
+}

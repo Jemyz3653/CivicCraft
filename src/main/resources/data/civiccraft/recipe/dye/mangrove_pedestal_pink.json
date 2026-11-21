@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:mangrove_pedestal",
+  "material": "minecraft:pink_dye",
+  "result": {
+    "id": "civiccraft:mangrove_pedestal",
+    "components": {
+      "minecraft:block_state": {
+        "color": "pink"
+      }
+    }
+  }
+}

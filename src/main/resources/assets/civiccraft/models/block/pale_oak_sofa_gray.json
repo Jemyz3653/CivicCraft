@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/pale_oak_sofa",
+  "textures": {
+    "cloth": "minecraft:block/gray_wool"
+  }
+}

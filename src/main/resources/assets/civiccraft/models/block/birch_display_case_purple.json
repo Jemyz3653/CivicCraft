@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/birch_display_case",
+  "textures": {
+    "cloth": "minecraft:block/purple_wool"
+  }
+}

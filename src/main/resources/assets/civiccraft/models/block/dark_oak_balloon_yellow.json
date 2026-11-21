@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/dark_oak_balloon",
+  "textures": {
+    "cloth": "minecraft:block/yellow_wool"
+  }
+}

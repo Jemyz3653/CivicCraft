@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:oak_display_case",
+  "material": "minecraft:pink_dye",
+  "result": {
+    "id": "civiccraft:oak_display_case",
+    "components": {
+      "minecraft:block_state": {
+        "color": "pink"
+      }
+    }
+  }
+}

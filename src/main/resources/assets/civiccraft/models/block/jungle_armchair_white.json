@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/jungle_armchair",
+  "textures": {
+    "cloth": "minecraft:block/white_wool"
+  }
+}

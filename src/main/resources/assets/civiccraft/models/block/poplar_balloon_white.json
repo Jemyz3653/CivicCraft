@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/poplar_balloon",
+  "textures": {
+    "cloth": "minecraft:block/white_wool"
+  }
+}

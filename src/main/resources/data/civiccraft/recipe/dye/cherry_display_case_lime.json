@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:cherry_display_case",
+  "material": "minecraft:lime_dye",
+  "result": {
+    "id": "civiccraft:cherry_display_case",
+    "components": {
+      "minecraft:block_state": {
+        "color": "lime"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/jungle_display_case",
+  "textures": {
+    "cloth": "minecraft:block/pink_wool"
+  }
+}

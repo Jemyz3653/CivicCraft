@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/bamboo_market_stand",
+  "textures": {
+    "cloth": "minecraft:block/light_blue_wool"
+  }
+}

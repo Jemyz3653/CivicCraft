@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/warped_display_case",
+  "textures": {
+    "cloth": "minecraft:block/light_gray_wool"
+  }
+}

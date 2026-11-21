@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/birch_armchair",
+  "textures": {
+    "cloth": "minecraft:block/lime_wool"
+  }
+}

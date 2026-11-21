@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:bamboo_market_stand",
+  "material": "minecraft:orange_dye",
+  "result": {
+    "id": "civiccraft:bamboo_market_stand",
+    "components": {
+      "minecraft:block_state": {
+        "color": "orange"
+      }
+    }
+  }
+}

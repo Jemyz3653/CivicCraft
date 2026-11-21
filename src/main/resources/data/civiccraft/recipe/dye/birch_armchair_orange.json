@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:birch_armchair",
+  "material": "minecraft:orange_dye",
+  "result": {
+    "id": "civiccraft:birch_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "orange"
+      }
+    }
+  }
+}

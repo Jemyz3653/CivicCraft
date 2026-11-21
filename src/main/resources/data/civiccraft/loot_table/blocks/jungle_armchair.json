@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:jungle_armchair"
+          "name": "civiccraft:jungle_armchair",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:jungle_armchair",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

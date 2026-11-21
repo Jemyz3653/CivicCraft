@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:jungle_armchair",
+  "material": "minecraft:lime_dye",
+  "result": {
+    "id": "civiccraft:jungle_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "lime"
+      }
+    }
+  }
+}

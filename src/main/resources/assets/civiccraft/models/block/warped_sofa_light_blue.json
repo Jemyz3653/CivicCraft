@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/warped_sofa",
+  "textures": {
+    "cloth": "minecraft:block/light_blue_wool"
+  }
+}

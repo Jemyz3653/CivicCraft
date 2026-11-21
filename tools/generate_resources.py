@@ -29,6 +29,15 @@ CHAIR = legs(3, 11, 3, 11, 7) + [part(2,7,2,14,9,14),
 SHELF = [part(0,0,3,16,2,16),part(0,2,3,2,16,16,'leg'),part(14,2,3,16,16,16,'leg'),
     part(2,2,14,14,15,16),part(2,7,3,14,9,14),part(0,14,3,16,16,16)]
 KINDS = {
+    'item_holder': ('Mannequin Hand Stand', 'Стойка с рукой манекена', 0, True, 1, [
+        part(3,0,3,13,2,13),part(6,2,6,10,10,10,'leg'),
+        part(5,10,6,11,12,10),part(5,12,6,7,14,10),part(9,12,6,11,14,10)],
+        [' S ',' C ','PPP']),
+    'balloon': ('Balloon', 'Воздушный шарик', 0, False, 0, [
+        part(5,0,5,11,1,11),part(7.75,1,7.75,8.25,16,8.25,'string'),
+        part(7,16,7,9,17,9,'cloth'),part(4,17,4,12,19,12,'cloth'),
+        part(3,19,3,13,26,13,'cloth'),part(4,26,4,12,28,12,'cloth'),
+        part(6,28,6,10,29,10,'cloth')], [' W ',' T ',' P ']),
     'chair': ('Chair', 'Стул', 9, False, 0, CHAIR, ['P  ','PPP','S S']),
     'armchair': ('Armchair', 'Кресло', 9, False, 0, CHAIR + [
         part(2,9,4,4,12,6,'leg'),part(12,9,4,14,12,6,'leg'),
@@ -127,10 +136,10 @@ KINDS = {
 POST = [part(4,0,4,12,2,12,'metal'),part(6,2,6,10,3,10,'metal'),
         part(7,3,7,9,13,9,'metal'),part(6,12,6,10,14,10,'metal'),part(7,14,7,9,15,9,'metal')]
 ROPE = [
-    part(7.25,11.75,6,8.75,13.25,8,'rope'),
-    part(7.25,11.1,4,8.75,12.6,6.1,'rope'),
-    part(7.25,10.65,2,8.75,12.15,4.1,'rope'),
-    part(7.25,10.5,0,8.75,12,2.1,'rope'),
+    part(7.25,11.75,4.5,8.75,13.25,6,'rope'),
+    part(7.25,11.1,3,8.75,12.6,4.5,'rope'),
+    part(7.25,10.65,1.5,8.75,12.15,3,'rope'),
+    part(7.25,10.5,0,8.75,12,1.5,'rope'),
 ]
 
 def write(path, value):
@@ -154,30 +163,58 @@ def finish(name, en, ru, recipe, count=1, tool='axe', unlock='minecraft:oak_plan
         'criteria':{'materials':{'trigger':'minecraft:inventory_changed','conditions':{'items':[{'items':unlock}]}}},
         'requirements':[['materials']], 'rewards':{'recipes':[rid]}})
     write(DATA/'loot_table'/'blocks'/f'{name}.json', {'type':'minecraft:block','pools':[{
-        'rolls':1,'entries':[{'type':'minecraft:item','name':rid}],'conditions':[{'condition':'minecraft:survives_explosion'}]}]})
+        'rolls':1,'entries':[{'type':'minecraft:item','name':rid}],'condition':{'type':'minecraft:survives_explosion'}}]})
     langs[0][f'block.{NS}.{name}']=en
     langs[1][f'block.{NS}.{name}']=ru
     tags[tool].append(rid)
 
 langs=[{'itemGroup.civiccraft':'CivicCraft'}, {'itemGroup.civiccraft':'CivicCraft — мебель'}]
 tags={'axe':[], 'pickaxe':[]}
+COLORS = ('white','orange','magenta','light_blue','yellow','lime','pink','gray',
+          'light_gray','cyan','purple','blue','brown','green','red','black')
 for wood,(en_wood,ru_wood) in WOODS.items():
     for kind,(en,ru,seat,storage,display,boxes,pattern) in KINDS.items():
         name=f'{wood}_{kind}'
         tv=f'minecraft:block/{wood}_planks'
         textures={'wood':tv, 'leg':tv, 'cloth':'minecraft:block/red_wool',
                   'metal':'minecraft:block/iron_block', 'stone':'minecraft:block/smooth_stone',
-                  'glass':'minecraft:block/glass', 'paper':'minecraft:block/white_wool','particle':tv}
+                  'glass':'minecraft:block/glass', 'paper':'minecraft:block/white_wool',
+                  'string':'minecraft:block/white_wool','particle':tv}
         write(ASSET/'models'/'block'/f'{name}.json', model(boxes,textures))
-        write(ASSET/'blockstates'/f'{name}.json', {'variants':{
-            f'facing={direction}':{'model':f'{NS}:block/{name}', 'y':turn}
-            for direction,turn in zip(('north','east','south','west'),(0,90,180,270))}})
+        variants = {}
+        has_cloth = any(box[6] == 'cloth' for box in boxes)
+        for color in COLORS if has_cloth else ('red',):
+            model_name = name if color == 'red' else f'{name}_{color}'
+            if color != 'red':
+                write(ASSET/'models'/'block'/f'{model_name}.json', {
+                    'parent':f'{NS}:block/{name}',
+                    'textures':{'cloth':f'minecraft:block/{color}_wool'}})
+            for direction,turn in zip(('north','east','south','west'),(0,90,180,270)):
+                state = f'facing={direction}' + (f',color={color}' if has_cloth else '')
+                variants[state] = {'model':f'{NS}:block/{model_name}', 'y':turn}
+        write(ASSET/'blockstates'/f'{name}.json', {'variants':variants})
         options={'P':f'minecraft:{wood}_planks', 'S':'minecraft:stick', 'C':'minecraft:chest',
                  'B':'minecraft:book', 'W':'minecraft:red_wool', 'I':'minecraft:iron_nugget',
-                 'T':'minecraft:smooth_stone', 'G':'minecraft:glass'}
+                 'T':'minecraft:string' if kind == 'balloon' else 'minecraft:smooth_stone', 'G':'minecraft:glass'}
         key={c:options[c] for c in sorted(set(''.join(pattern))) if c!=' '}
         finish(name,f'{en_wood} {en}',f'{ru} ({ru_wood})',
                {'type':'minecraft:crafting_shaped','category':'misc','pattern':pattern,'key':key},unlock=f'minecraft:{wood}_planks')
+        if has_cloth:
+            write(ASSET/'items'/f'{name}.json', {'model':{
+                'type':'minecraft:select', 'property':'minecraft:block_state', 'block_state_property':'color',
+                'cases':[{'when':color,'model':{'type':'minecraft:model','model':f'{NS}:block/{name}_{color}'}}
+                         for color in COLORS if color != 'red'],
+                'fallback':{'type':'minecraft:model','model':f'{NS}:block/{name}'}}})
+            loot_path = DATA/'loot_table'/'blocks'/f'{name}.json'
+            loot = json.loads(loot_path.read_text())
+            loot['pools'][0]['entries'][0]['modifier'] = [
+                {'type':'minecraft:copy_state','block':f'{NS}:{name}','properties':['color']}]
+            write(loot_path, loot)
+            for color in COLORS:
+                write(DATA/'recipe'/'dye'/f'{name}_{color}.json', {
+                    'type':'minecraft:crafting_transmute','category':'misc',
+                    'input':f'{NS}:{name}','material':f'minecraft:{color}_dye',
+                    'result':{'id':f'{NS}:{name}','components':{'minecraft:block_state':{'color':color}}}})
 for color,en,ru in [('red','Red','красный'),('blue','Blue','синий'),('black','Black','чёрный'),('white','White','белый')]:
     name=f'{color}_museum_stanchion'
     tex={'metal':'minecraft:block/gold_block','rope':f'minecraft:block/{color}_wool','particle':'minecraft:block/gold_block'}
@@ -198,7 +235,8 @@ def java_coords(boxes):
     return ',\n            '.join('{' + ', '.join(str(v) for v in p[:6]) + '}' for p in boxes)
 enum_items=[]
 for key,(_,_,seat,storage,display,boxes,_) in KINDS.items():
-    enum_items.append(f'    {key.upper()}("{key}", {seat}, {str(storage).lower()}, {display}, new double[][] {{\n            {java_coords(boxes)}\n    }})')
+    cloth = str(any(box[6] == 'cloth' for box in boxes)).lower()
+    enum_items.append(f'    {key.upper()}("{key}", {seat}, {str(storage).lower()}, {display}, {cloth}, new double[][] {{\n            {java_coords(boxes)}\n    }})')
 java='''package studio.detemkur.civiccraft;
 
 import java.util.Map;
@@ -215,13 +253,15 @@ public enum FurnitureKind {
     public final int seatHeight;
     public final boolean storage;
     public final int displaySlots;
+    public final boolean hasCloth;
     public final Map<Direction, VoxelShape> shapes;
 
-    FurnitureKind(String path, int seatHeight, boolean storage, int displaySlots, double[][] boxes) {
+    FurnitureKind(String path, int seatHeight, boolean storage, int displaySlots, boolean hasCloth, double[][] boxes) {
         this.path = path;
         this.seatHeight = seatHeight;
         this.storage = storage;
         this.displaySlots = displaySlots;
+        this.hasCloth = hasCloth;
         VoxelShape shape = Shapes.empty();
         for (double[] box : boxes) {
             shape = Shapes.or(shape, Block.box(box[0], box[1], box[2], box[3], box[4], box[5]));

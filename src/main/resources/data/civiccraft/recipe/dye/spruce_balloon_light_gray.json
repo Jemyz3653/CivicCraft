@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:spruce_balloon",
+  "material": "minecraft:light_gray_dye",
+  "result": {
+    "id": "civiccraft:spruce_balloon",
+    "components": {
+      "minecraft:block_state": {
+        "color": "light_gray"
+      }
+    }
+  }
+}

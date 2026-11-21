@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:acacia_armchair",
+  "material": "minecraft:gray_dye",
+  "result": {
+    "id": "civiccraft:acacia_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "gray"
+      }
+    }
+  }
+}

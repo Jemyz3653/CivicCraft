@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/mangrove_display_case",
+  "textures": {
+    "cloth": "minecraft:block/yellow_wool"
+  }
+}

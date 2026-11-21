@@ -1,3 +1,7 @@
+# 1.1.0
+
+Fixed overlapping museum ropes. Added all 16 fabric colors to upholstered furniture, display bases, market canopies and balloons. Dye furniture in place or craft it with dye. Cloth color survives breaking and inventories survive recoloring. Added anchored balloons and mannequin hand item stands in all 13 woods.
+
 # CivicCraft 1.0.0
 
 Initial release with 342 furniture variants, including 26 designs in every one of Minecraft 26.3's 13 woods and four museum stanchion colors.

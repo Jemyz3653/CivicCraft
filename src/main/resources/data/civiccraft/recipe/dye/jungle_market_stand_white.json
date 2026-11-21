@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:jungle_market_stand",
+  "material": "minecraft:white_dye",
+  "result": {
+    "id": "civiccraft:jungle_market_stand",
+    "components": {
+      "minecraft:block_state": {
+        "color": "white"
+      }
+    }
+  }
+}

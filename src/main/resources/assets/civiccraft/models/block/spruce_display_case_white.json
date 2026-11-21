@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/spruce_display_case",
+  "textures": {
+    "cloth": "minecraft:block/white_wool"
+  }
+}

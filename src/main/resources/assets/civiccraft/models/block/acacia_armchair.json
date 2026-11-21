@@ -9,6 +9,7 @@
     "stone": "minecraft:block/smooth_stone",
     "glass": "minecraft:block/glass",
     "paper": "minecraft:block/white_wool",
+    "string": "minecraft:block/white_wool",
     "particle": "minecraft:block/acacia_planks"
   },
   "elements": [

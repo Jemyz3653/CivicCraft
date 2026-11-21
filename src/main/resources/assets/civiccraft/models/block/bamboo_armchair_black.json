@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/bamboo_armchair",
+  "textures": {
+    "cloth": "minecraft:block/black_wool"
+  }
+}

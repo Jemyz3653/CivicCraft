@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:crimson_pedestal",
+  "material": "minecraft:orange_dye",
+  "result": {
+    "id": "civiccraft:crimson_pedestal",
+    "components": {
+      "minecraft:block_state": {
+        "color": "orange"
+      }
+    }
+  }
+}

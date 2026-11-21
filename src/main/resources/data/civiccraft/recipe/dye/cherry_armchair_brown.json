@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:cherry_armchair",
+  "material": "minecraft:brown_dye",
+  "result": {
+    "id": "civiccraft:cherry_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "brown"
+      }
+    }
+  }
+}

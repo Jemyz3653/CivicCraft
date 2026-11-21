@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:cherry_balloon",
+  "material": "minecraft:cyan_dye",
+  "result": {
+    "id": "civiccraft:cherry_balloon",
+    "components": {
+      "minecraft:block_state": {
+        "color": "cyan"
+      }
+    }
+  }
+}

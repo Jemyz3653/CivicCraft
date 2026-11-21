@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:spruce_armchair",
+  "material": "minecraft:pink_dye",
+  "result": {
+    "id": "civiccraft:spruce_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "pink"
+      }
+    }
+  }
+}

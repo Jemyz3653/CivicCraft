@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:dark_oak_pedestal"
+          "name": "civiccraft:dark_oak_pedestal",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:dark_oak_pedestal",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

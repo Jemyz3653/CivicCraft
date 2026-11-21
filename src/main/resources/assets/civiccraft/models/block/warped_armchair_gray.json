@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/warped_armchair",
+  "textures": {
+    "cloth": "minecraft:block/gray_wool"
+  }
+}

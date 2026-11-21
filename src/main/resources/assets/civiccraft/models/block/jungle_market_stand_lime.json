@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/jungle_market_stand",
+  "textures": {
+    "cloth": "minecraft:block/lime_wool"
+  }
+}

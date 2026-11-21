@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/bamboo_pedestal",
+  "textures": {
+    "cloth": "minecraft:block/white_wool"
+  }
+}

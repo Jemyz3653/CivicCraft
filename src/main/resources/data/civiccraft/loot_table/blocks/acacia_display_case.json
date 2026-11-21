@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:acacia_display_case"
+          "name": "civiccraft:acacia_display_case",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:acacia_display_case",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

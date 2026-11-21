@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:spruce_sofa",
+  "material": "minecraft:red_dye",
+  "result": {
+    "id": "civiccraft:spruce_sofa",
+    "components": {
+      "minecraft:block_state": {
+        "color": "red"
+      }
+    }
+  }
+}

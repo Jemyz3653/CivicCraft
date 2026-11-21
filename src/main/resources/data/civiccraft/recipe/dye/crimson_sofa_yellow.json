@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:crimson_sofa",
+  "material": "minecraft:yellow_dye",
+  "result": {
+    "id": "civiccraft:crimson_sofa",
+    "components": {
+      "minecraft:block_state": {
+        "color": "yellow"
+      }
+    }
+  }
+}

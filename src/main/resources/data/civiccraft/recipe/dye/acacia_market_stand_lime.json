@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:acacia_market_stand",
+  "material": "minecraft:lime_dye",
+  "result": {
+    "id": "civiccraft:acacia_market_stand",
+    "components": {
+      "minecraft:block_state": {
+        "color": "lime"
+      }
+    }
+  }
+}

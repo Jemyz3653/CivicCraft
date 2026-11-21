@@ -1,19 +1,259 @@
 {
   "variants": {
-    "facing=north": {
+    "facing=north,color=white": {
+      "model": "civiccraft:block/birch_display_case_white",
+      "y": 0
+    },
+    "facing=east,color=white": {
+      "model": "civiccraft:block/birch_display_case_white",
+      "y": 90
+    },
+    "facing=south,color=white": {
+      "model": "civiccraft:block/birch_display_case_white",
+      "y": 180
+    },
+    "facing=west,color=white": {
+      "model": "civiccraft:block/birch_display_case_white",
+      "y": 270
+    },
+    "facing=north,color=orange": {
+      "model": "civiccraft:block/birch_display_case_orange",
+      "y": 0
+    },
+    "facing=east,color=orange": {
+      "model": "civiccraft:block/birch_display_case_orange",
+      "y": 90
+    },
+    "facing=south,color=orange": {
+      "model": "civiccraft:block/birch_display_case_orange",
+      "y": 180
+    },
+    "facing=west,color=orange": {
+      "model": "civiccraft:block/birch_display_case_orange",
+      "y": 270
+    },
+    "facing=north,color=magenta": {
+      "model": "civiccraft:block/birch_display_case_magenta",
+      "y": 0
+    },
+    "facing=east,color=magenta": {
+      "model": "civiccraft:block/birch_display_case_magenta",
+      "y": 90
+    },
+    "facing=south,color=magenta": {
+      "model": "civiccraft:block/birch_display_case_magenta",
+      "y": 180
+    },
+    "facing=west,color=magenta": {
+      "model": "civiccraft:block/birch_display_case_magenta",
+      "y": 270
+    },
+    "facing=north,color=light_blue": {
+      "model": "civiccraft:block/birch_display_case_light_blue",
+      "y": 0
+    },
+    "facing=east,color=light_blue": {
+      "model": "civiccraft:block/birch_display_case_light_blue",
+      "y": 90
+    },
+    "facing=south,color=light_blue": {
+      "model": "civiccraft:block/birch_display_case_light_blue",
+      "y": 180
+    },
+    "facing=west,color=light_blue": {
+      "model": "civiccraft:block/birch_display_case_light_blue",
+      "y": 270
+    },
+    "facing=north,color=yellow": {
+      "model": "civiccraft:block/birch_display_case_yellow",
+      "y": 0
+    },
+    "facing=east,color=yellow": {
+      "model": "civiccraft:block/birch_display_case_yellow",
+      "y": 90
+    },
+    "facing=south,color=yellow": {
+      "model": "civiccraft:block/birch_display_case_yellow",
+      "y": 180
+    },
+    "facing=west,color=yellow": {
+      "model": "civiccraft:block/birch_display_case_yellow",
+      "y": 270
+    },
+    "facing=north,color=lime": {
+      "model": "civiccraft:block/birch_display_case_lime",
+      "y": 0
+    },
+    "facing=east,color=lime": {
+      "model": "civiccraft:block/birch_display_case_lime",
+      "y": 90
+    },
+    "facing=south,color=lime": {
+      "model": "civiccraft:block/birch_display_case_lime",
+      "y": 180
+    },
+    "facing=west,color=lime": {
+      "model": "civiccraft:block/birch_display_case_lime",
+      "y": 270
+    },
+    "facing=north,color=pink": {
+      "model": "civiccraft:block/birch_display_case_pink",
+      "y": 0
+    },
+    "facing=east,color=pink": {
+      "model": "civiccraft:block/birch_display_case_pink",
+      "y": 90
+    },
+    "facing=south,color=pink": {
+      "model": "civiccraft:block/birch_display_case_pink",
+      "y": 180
+    },
+    "facing=west,color=pink": {
+      "model": "civiccraft:block/birch_display_case_pink",
+      "y": 270
+    },
+    "facing=north,color=gray": {
+      "model": "civiccraft:block/birch_display_case_gray",
+      "y": 0
+    },
+    "facing=east,color=gray": {
+      "model": "civiccraft:block/birch_display_case_gray",
+      "y": 90
+    },
+    "facing=south,color=gray": {
+      "model": "civiccraft:block/birch_display_case_gray",
+      "y": 180
+    },
+    "facing=west,color=gray": {
+      "model": "civiccraft:block/birch_display_case_gray",
+      "y": 270
+    },
+    "facing=north,color=light_gray": {
+      "model": "civiccraft:block/birch_display_case_light_gray",
+      "y": 0
+    },
+    "facing=east,color=light_gray": {
+      "model": "civiccraft:block/birch_display_case_light_gray",
+      "y": 90
+    },
+    "facing=south,color=light_gray": {
+      "model": "civiccraft:block/birch_display_case_light_gray",
+      "y": 180
+    },
+    "facing=west,color=light_gray": {
+      "model": "civiccraft:block/birch_display_case_light_gray",
+      "y": 270
+    },
+    "facing=north,color=cyan": {
+      "model": "civiccraft:block/birch_display_case_cyan",
+      "y": 0
+    },
+    "facing=east,color=cyan": {
+      "model": "civiccraft:block/birch_display_case_cyan",
+      "y": 90
+    },
+    "facing=south,color=cyan": {
+      "model": "civiccraft:block/birch_display_case_cyan",
+      "y": 180
+    },
+    "facing=west,color=cyan": {
+      "model": "civiccraft:block/birch_display_case_cyan",
+      "y": 270
+    },
+    "facing=north,color=purple": {
+      "model": "civiccraft:block/birch_display_case_purple",
+      "y": 0
+    },
+    "facing=east,color=purple": {
+      "model": "civiccraft:block/birch_display_case_purple",
+      "y": 90
+    },
+    "facing=south,color=purple": {
+      "model": "civiccraft:block/birch_display_case_purple",
+      "y": 180
+    },
+    "facing=west,color=purple": {
+      "model": "civiccraft:block/birch_display_case_purple",
+      "y": 270
+    },
+    "facing=north,color=blue": {
+      "model": "civiccraft:block/birch_display_case_blue",
+      "y": 0
+    },
+    "facing=east,color=blue": {
+      "model": "civiccraft:block/birch_display_case_blue",
+      "y": 90
+    },
+    "facing=south,color=blue": {
+      "model": "civiccraft:block/birch_display_case_blue",
+      "y": 180
+    },
+    "facing=west,color=blue": {
+      "model": "civiccraft:block/birch_display_case_blue",
+      "y": 270
+    },
+    "facing=north,color=brown": {
+      "model": "civiccraft:block/birch_display_case_brown",
+      "y": 0
+    },
+    "facing=east,color=brown": {
+      "model": "civiccraft:block/birch_display_case_brown",
+      "y": 90
+    },
+    "facing=south,color=brown": {
+      "model": "civiccraft:block/birch_display_case_brown",
+      "y": 180
+    },
+    "facing=west,color=brown": {
+      "model": "civiccraft:block/birch_display_case_brown",
+      "y": 270
+    },
+    "facing=north,color=green": {
+      "model": "civiccraft:block/birch_display_case_green",
+      "y": 0
+    },
+    "facing=east,color=green": {
+      "model": "civiccraft:block/birch_display_case_green",
+      "y": 90
+    },
+    "facing=south,color=green": {
+      "model": "civiccraft:block/birch_display_case_green",
+      "y": 180
+    },
+    "facing=west,color=green": {
+      "model": "civiccraft:block/birch_display_case_green",
+      "y": 270
+    },
+    "facing=north,color=red": {
       "model": "civiccraft:block/birch_display_case",
       "y": 0
     },
-    "facing=east": {
+    "facing=east,color=red": {
       "model": "civiccraft:block/birch_display_case",
       "y": 90
     },
-    "facing=south": {
+    "facing=south,color=red": {
       "model": "civiccraft:block/birch_display_case",
       "y": 180
     },
-    "facing=west": {
+    "facing=west,color=red": {
       "model": "civiccraft:block/birch_display_case",
+      "y": 270
+    },
+    "facing=north,color=black": {
+      "model": "civiccraft:block/birch_display_case_black",
+      "y": 0
+    },
+    "facing=east,color=black": {
+      "model": "civiccraft:block/birch_display_case_black",
+      "y": 90
+    },
+    "facing=south,color=black": {
+      "model": "civiccraft:block/birch_display_case_black",
+      "y": 180
+    },
+    "facing=west,color=black": {
+      "model": "civiccraft:block/birch_display_case_black",
       "y": 270
     }
   }

@@ -65,6 +65,10 @@ final class ShelfRenderer implements BlockEntityRenderer<FurnitureStorage, Shelf
                         pose.rotateDegrees(Axis.XP, 25F);
                         pose.scale(0.55F, 0.55F, 0.55F);
                     }
+                    case ITEM_HOLDER -> {
+                        pose.translate(0, 1.14, 0);
+                        pose.scale(0.8F, 0.8F, 0.8F);
+                    }
                     default -> {
                         pose.translate(0, 1.24, 0);
                         pose.scale(0.62F, 0.62F, 0.62F);

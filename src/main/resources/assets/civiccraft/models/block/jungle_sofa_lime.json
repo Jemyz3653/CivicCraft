@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/jungle_sofa",
+  "textures": {
+    "cloth": "minecraft:block/lime_wool"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:acacia_pedestal",
+  "material": "minecraft:green_dye",
+  "result": {
+    "id": "civiccraft:acacia_pedestal",
+    "components": {
+      "minecraft:block_state": {
+        "color": "green"
+      }
+    }
+  }
+}

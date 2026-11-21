@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/mangrove_market_stand",
+  "textures": {
+    "cloth": "minecraft:block/white_wool"
+  }
+}

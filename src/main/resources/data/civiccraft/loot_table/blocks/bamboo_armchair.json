@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:bamboo_armchair"
+          "name": "civiccraft:bamboo_armchair",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:bamboo_armchair",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

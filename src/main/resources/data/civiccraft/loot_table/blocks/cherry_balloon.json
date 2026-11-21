@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "civiccraft:cherry_balloon",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:cherry_balloon",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
-# CivicCraft Furniture 1.0.0
+# CivicCraft Furniture 1.1.0
 
 Minecraft Java 26.3 · Fabric Loader 0.19.5+ · Fabric API 0.163.0+ for 26.3 · Java 25 · Client + Server.
 
-There are 342 furniture variants, with 26 wooden designs in 13 woods and four museum stanchions. The CivicCraft creative tab contains every variant. Recipes are available in Survival and unlock when the corresponding materials are obtained.
+There are 368 furniture variants, with 28 wooden designs in 13 woods and four museum stanchions. The CivicCraft creative tab contains every variant. Recipes are available in Survival and unlock when the corresponding materials are obtained.
 
 | Furniture | Use |
 | --- | --- |
@@ -23,3 +23,5 @@ Use JDK 25 and run `gradlew.bat build` on Windows or `bash gradlew build` on Lin
 Run `python tools/draw_icon.py --curseforge CivicCraft-icon.png` with Pillow to regenerate the embedded icon and a 512px project logo.
 
 License MIT. Created with ChatGPT by OpenAI.
+
+Upholstered furniture, market canopies and display bases support all 16 wool colors. Dye them directly or craft the item with a dye. New anchored balloons and mannequin hand item holders are available in all 13 woods.

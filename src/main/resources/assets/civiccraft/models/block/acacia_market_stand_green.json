@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/acacia_market_stand",
+  "textures": {
+    "cloth": "minecraft:block/green_wool"
+  }
+}

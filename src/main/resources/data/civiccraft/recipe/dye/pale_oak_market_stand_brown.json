@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:pale_oak_market_stand",
+  "material": "minecraft:brown_dye",
+  "result": {
+    "id": "civiccraft:pale_oak_market_stand",
+    "components": {
+      "minecraft:block_state": {
+        "color": "brown"
+      }
+    }
+  }
+}

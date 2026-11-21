@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:poplar_sofa",
+  "material": "minecraft:blue_dye",
+  "result": {
+    "id": "civiccraft:poplar_sofa",
+    "components": {
+      "minecraft:block_state": {
+        "color": "blue"
+      }
+    }
+  }
+}

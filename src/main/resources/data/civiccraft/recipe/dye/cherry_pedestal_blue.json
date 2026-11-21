@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:cherry_pedestal",
+  "material": "minecraft:blue_dye",
+  "result": {
+    "id": "civiccraft:cherry_pedestal",
+    "components": {
+      "minecraft:block_state": {
+        "color": "blue"
+      }
+    }
+  }
+}

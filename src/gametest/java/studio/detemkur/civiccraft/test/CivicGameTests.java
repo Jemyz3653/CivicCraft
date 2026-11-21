@@ -21,7 +21,7 @@ public final class CivicGameTests {
     private static final BlockPos CENTER = new BlockPos(1, 1, 1);
 
     @GameTest public void allFurnitureRecipesLoad(GameTestHelper test) {
-        test.assertTrue(CivicCraft.BLOCKS.size() == 342, "Incorrect count of furniture variants");
+        test.assertTrue(CivicCraft.BLOCKS.size() == 368, "Incorrect count of furniture variants");
         for (String id : CivicCraft.BLOCKS.keySet()) {
             var key = ResourceKey.create(Registries.RECIPE, CivicCraft.id(id));
             test.assertTrue(test.getLevel().recipeAccess().byKey(key).isPresent(), "Missing recipe " + id);

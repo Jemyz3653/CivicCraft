@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/cherry_display_case",
+  "textures": {
+    "cloth": "minecraft:block/cyan_wool"
+  }
+}

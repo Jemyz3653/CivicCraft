@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:warped_display_case",
+  "material": "minecraft:purple_dye",
+  "result": {
+    "id": "civiccraft:warped_display_case",
+    "components": {
+      "minecraft:block_state": {
+        "color": "purple"
+      }
+    }
+  }
+}

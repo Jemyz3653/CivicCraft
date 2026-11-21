@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/crimson_pedestal",
+  "textures": {
+    "cloth": "minecraft:block/white_wool"
+  }
+}

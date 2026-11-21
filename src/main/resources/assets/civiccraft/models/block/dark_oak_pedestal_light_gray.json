@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/dark_oak_pedestal",
+  "textures": {
+    "cloth": "minecraft:block/light_gray_wool"
+  }
+}

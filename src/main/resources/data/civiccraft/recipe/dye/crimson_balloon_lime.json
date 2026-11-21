@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:crimson_balloon",
+  "material": "minecraft:lime_dye",
+  "result": {
+    "id": "civiccraft:crimson_balloon",
+    "components": {
+      "minecraft:block_state": {
+        "color": "lime"
+      }
+    }
+  }
+}

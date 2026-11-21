@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:birch_display_case",
+  "material": "minecraft:cyan_dye",
+  "result": {
+    "id": "civiccraft:birch_display_case",
+    "components": {
+      "minecraft:block_state": {
+        "color": "cyan"
+      }
+    }
+  }
+}

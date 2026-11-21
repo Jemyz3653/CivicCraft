@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/poplar_display_case",
+  "textures": {
+    "cloth": "minecraft:block/magenta_wool"
+  }
+}

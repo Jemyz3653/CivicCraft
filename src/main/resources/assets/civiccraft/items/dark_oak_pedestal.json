@@ -1,6 +1,118 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "civiccraft:block/dark_oak_pedestal"
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "color",
+    "cases": [
+      {
+        "when": "white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_white"
+        }
+      },
+      {
+        "when": "orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_orange"
+        }
+      },
+      {
+        "when": "magenta",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_magenta"
+        }
+      },
+      {
+        "when": "light_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_light_blue"
+        }
+      },
+      {
+        "when": "yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_yellow"
+        }
+      },
+      {
+        "when": "lime",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_lime"
+        }
+      },
+      {
+        "when": "pink",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_pink"
+        }
+      },
+      {
+        "when": "gray",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_gray"
+        }
+      },
+      {
+        "when": "light_gray",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_light_gray"
+        }
+      },
+      {
+        "when": "cyan",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_cyan"
+        }
+      },
+      {
+        "when": "purple",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_purple"
+        }
+      },
+      {
+        "when": "blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_blue"
+        }
+      },
+      {
+        "when": "brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_brown"
+        }
+      },
+      {
+        "when": "green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_green"
+        }
+      },
+      {
+        "when": "black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "civiccraft:block/dark_oak_pedestal_black"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "civiccraft:block/dark_oak_pedestal"
+    }
   }
 }

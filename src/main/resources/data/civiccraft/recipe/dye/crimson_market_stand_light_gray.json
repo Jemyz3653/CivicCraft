@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:crimson_market_stand",
+  "material": "minecraft:light_gray_dye",
+  "result": {
+    "id": "civiccraft:crimson_market_stand",
+    "components": {
+      "minecraft:block_state": {
+        "color": "light_gray"
+      }
+    }
+  }
+}

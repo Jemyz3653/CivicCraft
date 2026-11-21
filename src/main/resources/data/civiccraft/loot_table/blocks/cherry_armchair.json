@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:cherry_armchair"
+          "name": "civiccraft:cherry_armchair",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:cherry_armchair",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

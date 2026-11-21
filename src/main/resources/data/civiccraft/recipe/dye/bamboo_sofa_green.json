@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:bamboo_sofa",
+  "material": "minecraft:green_dye",
+  "result": {
+    "id": "civiccraft:bamboo_sofa",
+    "components": {
+      "minecraft:block_state": {
+        "color": "green"
+      }
+    }
+  }
+}

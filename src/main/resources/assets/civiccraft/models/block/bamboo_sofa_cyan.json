@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/bamboo_sofa",
+  "textures": {
+    "cloth": "minecraft:block/cyan_wool"
+  }
+}

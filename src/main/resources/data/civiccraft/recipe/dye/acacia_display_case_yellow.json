@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:acacia_display_case",
+  "material": "minecraft:yellow_dye",
+  "result": {
+    "id": "civiccraft:acacia_display_case",
+    "components": {
+      "minecraft:block_state": {
+        "color": "yellow"
+      }
+    }
+  }
+}

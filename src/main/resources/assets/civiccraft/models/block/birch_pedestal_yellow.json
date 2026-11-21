@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/birch_pedestal",
+  "textures": {
+    "cloth": "minecraft:block/yellow_wool"
+  }
+}

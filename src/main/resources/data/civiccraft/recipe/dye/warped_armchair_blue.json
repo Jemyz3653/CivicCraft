@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:warped_armchair",
+  "material": "minecraft:blue_dye",
+  "result": {
+    "id": "civiccraft:warped_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "blue"
+      }
+    }
+  }
+}

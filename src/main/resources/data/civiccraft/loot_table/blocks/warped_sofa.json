@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:warped_sofa"
+          "name": "civiccraft:warped_sofa",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:warped_sofa",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

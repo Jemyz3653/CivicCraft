@@ -1,0 +1,6 @@
+{
+  "parent": "civiccraft:block/warped_pedestal",
+  "textures": {
+    "cloth": "minecraft:block/orange_wool"
+  }
+}

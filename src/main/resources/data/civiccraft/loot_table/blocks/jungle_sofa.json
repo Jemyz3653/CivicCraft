@@ -6,14 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "civiccraft:jungle_sofa"
+          "name": "civiccraft:jungle_sofa",
+          "modifier": [
+            {
+              "type": "minecraft:copy_state",
+              "block": "civiccraft:jungle_sofa",
+              "properties": [
+                "color"
+              ]
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

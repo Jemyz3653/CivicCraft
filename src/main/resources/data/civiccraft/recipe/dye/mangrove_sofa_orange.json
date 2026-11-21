@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:mangrove_sofa",
+  "material": "minecraft:orange_dye",
+  "result": {
+    "id": "civiccraft:mangrove_sofa",
+    "components": {
+      "minecraft:block_state": {
+        "color": "orange"
+      }
+    }
+  }
+}

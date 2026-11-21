@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:dark_oak_armchair",
+  "material": "minecraft:green_dye",
+  "result": {
+    "id": "civiccraft:dark_oak_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "green"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    " C ",
+    "PPP"
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "P": "minecraft:pale_oak_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "civiccraft:pale_oak_item_holder",
+    "count": 1
+  }
+}

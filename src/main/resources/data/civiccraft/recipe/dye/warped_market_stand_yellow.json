@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:warped_market_stand",
+  "material": "minecraft:yellow_dye",
+  "result": {
+    "id": "civiccraft:warped_market_stand",
+    "components": {
+      "minecraft:block_state": {
+        "color": "yellow"
+      }
+    }
+  }
+}

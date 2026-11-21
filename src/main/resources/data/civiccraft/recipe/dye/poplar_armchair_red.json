@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "misc",
+  "input": "civiccraft:poplar_armchair",
+  "material": "minecraft:red_dye",
+  "result": {
+    "id": "civiccraft:poplar_armchair",
+    "components": {
+      "minecraft:block_state": {
+        "color": "red"
+      }
+    }
+  }
+}
